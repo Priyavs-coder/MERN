@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive web page</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Coimbatore</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-3 col-s-3 menu">
+        <ul>
+          <li>Flight</li>
+          <li>Food</li>
+          <li>City</li>
+          <li>Weather</li>
+        </ul>
+      </div>
+      <div class="col-6 col-s-9">
+        <h1>The City</h1>
+        <p>The city of Coimbatore is the manchester of South India</p>
+      </div>
+      <div class="col-3 col-12">
+        <div class="aside">
+          <h2>What?</h2>
+          <p>Manchester of South India</p>
+          <h2>Where?</h2>
+          <p>Its in Tamil nadu</p>
+          <h2>How?</h2>
+          <p>You can reach by bus, train, flight.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Resize the browser window to see the changes</p>
+    </div>
+  </body>
+</html>
